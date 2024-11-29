@@ -1,0 +1,71 @@
+.header{ 
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    border: solid 2px salmon;
+    height: 15vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+
+.logoheader{
+border: solid 2px yellow;
+width: 23vw;
+display: flex;
+align-items: center;
+color: white;
+height: 15vh;
+justify-content: space-around;
+}
+h1{
+    font-size: 1.7vw;
+    font-weight: 40git ;
+}
+
+.navheader{
+    border: solid 2px red;
+    width: 35vw;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+        a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }     
+
+    }
+}
+
+.boxmenu{
+    border: solid 2px white;
+    width: 17vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+.boxInput{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 10px;
+    color: white;
+    font-size: 17px;
+    
+    &::placeholder{
+        color: white;
+        font-size: 20px;
+    }
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
