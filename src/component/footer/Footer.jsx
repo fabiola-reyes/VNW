@@ -1,5 +1,5 @@
 import facebook from '../../assets/facebook..png'
-import twuiten from '../../assets/twuiten.png'
+import passaro from '../../assets/passaro.png'
 import youtube from '../../assets/youtube..png'
 import likendin from '../../assets/likendin.png'
 import instagran from '../../assets/instagran.png'
@@ -12,7 +12,7 @@ export default function footer(){
        <h3>4002-8922</h3>
        <nav>
        <img src={facebook} alt="icon de facebook" />
-        <img src={twuiten} alt="icon de twitten" />
+        <img src={passaro} alt="icon de twitten" />
         <img src={youtube} alt="icon de youtube" />
         <img src={likendin} alt="icon de likendin" />
         <img src={instagran} alt="icon de instagran" />
