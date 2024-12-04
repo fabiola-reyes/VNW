@@ -1,9 +1,9 @@
 import facebook from '../../assets/facebook..png'
 import passaro from '../../assets/passaro.png'
-import youtube from '../../assets/youtube..png'
+import youtube from '../../assets/youtube.png'
 import likendin from '../../assets/likendin.png'
 import instagran from '../../assets/instagran.png'
-import S from '../footer/Footer.module.scss'
+import S from './footer/Footer.module.scss'
 
 export default function footer(){
     return(
