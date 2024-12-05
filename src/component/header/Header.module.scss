@@ -54,7 +54,7 @@ h1{
 }
 
 .boxInput{
-    border: red 2px;
+    border: none;
     outline: none;
     width: 13vw;
     background-color: transparent;
@@ -83,7 +83,7 @@ button {
 
     @media(max-width: 1170px){
         .logoheader{
-          border: solid 2px red;
+          //border: solid 2px red;
           h1{
             font-size: 1.7vw;
           }
@@ -93,81 +93,81 @@ button {
         }
     
         .navheader{
-         border: solid 2px yellow;
+         //border: solid 2px yellow;
          ul{
           font-size: 1.6vw;
          }
-        }@media(max-width: 1170px){
-          .boxLogo{
-            // border: solid 2px red;
-            h1{
-              font-size: 1.7vw;
-            }
-            img{
-              width: 5vw;
-            }
-          }
-      
-          .boxMenu{
-          //  border: solid 2px yellow;
-           ul{
-            font-size: 1.6vw;
-           }
-          }
-      
-         .boxSearch{
-          width: 20vw;
-         } 
-         .boxInput{
-          width: 16vw;
-          &::placeholder{
-            font-size: 1.3vw;
-          }
-         }
-      }
-      
-      @media(max-width: 760px){
-      
-        header{
-          height: 25vh;
-          flex-direction: column;
-          justify-content: space-around;
         }
-      
-        .boxSearch{
-         display: none;
-        }
-      
-        .boxLogo{
-          width: 100%;
-          justify-content: space-evenly;
-          h1{
-            font-size: 28px;
-          }
-          img{
-            width: 50px;
-          }
-        }
-      
-        .boxMenu{
-          width: 100%;
-          ul{
-            font-size: 22px;
-            justify-content: space-around;
-          }
-        }
-      }
-      
-      @media(max-width: 380px){
-            .boxMenu{
-              ul{
-                font-size: 18px;
-              }
-            }
-      }
     }
         
-
+    @media(max-width: 1170px){
+      .logoheader{
+        // border: solid 2px red;
+        h1{
+          font-size: 1.7vw;
+        }
+        img{
+          width: 5vw;
+        }
+      }
+  
+      .navheader{
+      //  border: solid 2px yellow;
+       ul{
+        font-size: 1.6vw;
+       }
+      }
+  
+     .boxmenu{
+      width: 20vw;
+     } 
+     .boxInput{
+      width: 16vw;
+      &::placeholder{
+        font-size: 1.3vw;
+      }
+     }
+  }
+  
+  @media(max-width: 760px){
+  
+    header{
+      height: 25vh;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  
+    .boxmenu{
+     display: none;
+    }
+  
+    .logoheader{
+      width: 100%;
+      justify-content: space-evenly;
+      h1{
+        font-size: 28px;
+      }
+      img{
+        width: 50px;
+      }
+    }
+  
+    .navheader{
+      width: 100%;
+      ul{
+        font-size: 22px;
+        justify-content: space-around;
+      }
+    }
+  }
+  
+  @media(max-width: 380px){
+        .navheader{
+          ul{
+            font-size: 18px;
+          }
+        }
+  }
 
 
 

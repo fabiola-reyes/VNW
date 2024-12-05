@@ -16,7 +16,6 @@
                             <p>Ficção</p>
                             
                         </article>
-                        
                     </section>
                 </section>
             )
