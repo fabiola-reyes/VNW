@@ -23,7 +23,7 @@ export default function Header() {
                 </ul>
             </nav>
             <div className={S.boxmenu}>
-            <input 
+            <input className={S.boxInput}
             type="search"
             name=""
             id=""

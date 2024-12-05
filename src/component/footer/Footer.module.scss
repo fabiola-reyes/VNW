@@ -29,11 +29,21 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media(max-width: 1000px){
+
     .boxSocial{
         nav{
-            border: solid 2px red;
-            width:230px;
+            width: 230px;
         }
+    }
+}
+
+@media(max-width: 585px){
+    .boxSocial{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxTexto{
+        text-align: center;
     }
 }

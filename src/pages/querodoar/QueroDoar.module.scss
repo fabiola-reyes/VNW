@@ -53,3 +53,39 @@ input:nth-child(6){
    cursor: pointer;
    font-size: 18px;
 }
+
+
+@media(max-width: 1070px){
+
+    form{
+     width: 350px;
+    }
+}
+
+@media(max-width: 650px){
+ .container{
+   height: 90vh;
+   h2{
+     font-size: 20px;
+   }
+ }
+
+ .principal{
+   height: auto;
+ }
+}
+
+@media(max-width: 450px){
+
+   form{
+     width: 75vw;
+     div{
+       img{
+         width: 13vw;
+       }
+       h3{
+         font-size: 4.5vw;
+       }
+     }
+   }
+}

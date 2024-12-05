@@ -1,6 +1,6 @@
 import facebook from '../../assets/facebook..png'
 import passaro from '../../assets/passaro.png'
-import youtube from '../../assets/youtuben.png'
+import youtube from '../../assets/youtube.png'
 import likendin from '../../assets/likendin.png'
 import instagran from '../../assets/instagran.png'
 import S from './Footer.module.scss'
