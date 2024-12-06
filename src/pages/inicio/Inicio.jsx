@@ -1,4 +1,4 @@
-import S from './inicio.module.scss'
+import S from './Inicio.module.scss'
 import comunidad from '../../assets/comunidad.png'
 import reading from '../../assets/reading.png'
 import balanza from '../../assets/balanza.png'
