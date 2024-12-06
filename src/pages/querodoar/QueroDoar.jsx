@@ -1,4 +1,4 @@
-import S from './queroDoar.module.scss'
+import S from './QueroDoar.module.scss'
 import vector from '../../assets/vector.png'
 
 export default function QueroDoar(){
