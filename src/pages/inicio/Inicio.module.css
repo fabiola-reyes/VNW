@@ -1,0 +1,95 @@
+.post {
+  background-image: url("../../assets/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.post h2 {
+  width: 27vw;
+  margin-left: 130px;
+  font-size: 40px;
+}
+
+.devoDoar {
+  height: 80vh;
+}
+.devoDoar div {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+.devoDoar div h2 {
+  font-size: 30px;
+  color: rgb(0, 86, 149);
+  margin-left: 65px;
+}
+
+.boxCard {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.boxCard article {
+  width: 20%;
+  height: 80%;
+  background-color: rgba(1, 87, 148, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+.boxCard article p {
+  width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .post {
+    background-image: url("../../assets/secondBanner.png");
+    justify-content: center;
+  }
+  .post h2 {
+    width: 70%;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 0;
+  }
+  .devoDoar {
+    height: 120vh;
+  }
+  .devoDoar div {
+    justify-content: center;
+  }
+  .devoDoar div h2 {
+    margin-left: 0;
+  }
+  .boxCard {
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .boxCard article {
+    width: 200px;
+    height: 250px;
+  }
+  .boxCard article p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 427px) {
+  .devoDoar {
+    height: 220vh;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxCard {
+    height: auto;
+  }
+}/*# sourceMappingURL=Inicio.module.css.map */
